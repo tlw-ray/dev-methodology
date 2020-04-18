@@ -2,11 +2,9 @@
 
 [TOC]
 
-## 一、文档
+## 一、[文档]((document/README.md))
 
-### （一）[文档层级](document/level.md)
 
-### （二）[文档书写规范](document/ryf/README.md)
 
 ## 二、需求
 
