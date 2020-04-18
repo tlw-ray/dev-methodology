@@ -161,7 +161,7 @@ java -classpath ".;.\target\classes;C;\Users\admin\.m2\repository\info\cukes\cuc
 
 在编写 feature 文件的过程中，IDEA 会提示目前文件中哪些步骤（steps）是没有对应的 Java step definitions，如下图所示，Intellij IDEA 会以黄色的小灯泡这个提示标志来提醒作者：
 图 2. IDEA 提示 No Step Definition Found 示例
-![](image/step_definition.png)
+![](image/steps_definitions.png)
 读者只需要按照如下的步骤来生成对应的 Steps definitions 即可：
 
 1. 点击该提示图标，并从弹出的菜单项中选择“Create Step Definition”或者“Create All Steps Definition”；
