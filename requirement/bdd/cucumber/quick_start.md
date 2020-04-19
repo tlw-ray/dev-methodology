@@ -1,4 +1,4 @@
-#  Cucumber行为驱动开发-描述需求-建立测试用例
+#  行为驱动-Cucumber连接需求与测试
 
 ## 目录
 
@@ -6,7 +6,7 @@
 
 ## 概述
 
-个人感觉这个框架非常适合通过类似UI层面的理解，开展自动化测试，不仅能把用例中的测试步骤以非常友好的形式展现出来，而且能够非常灵活的构建场景；IDEA自带对Cucumber的支持，只需在插件中开启即可使用。`Cucumber`字面含义是黄瓜包含一组功能集合，`Gherkin`是需求描述的领域语法，存放在扩展名为*.feature的文件中。
+个人感觉这个框架非常适合通过类似`UI`层面的理解，开展自动化测试，不仅能把用例中的测试步骤以非常友好的形式展现出来，而且能够非常灵活的构建场景；IDEA自带对Cucumber的支持，只需在插件中开启即可使用。`Cucumber`字面含义是黄瓜包含一组功能集合，`Gherkin`是需求描述的领域语法，存放在扩展名为*.feature的文件中。
 
 ## 一、简介
 
@@ -137,7 +137,7 @@ Then（则）-----------------assert(断言，验证结果)
 
 ## 四、Step_definitions 定义步骤
 
-- 实现执行Feature的业务代码
+- 实现执行Feature中描述的业务代码
 
   `src/main/java/io.cucumber.skeleton.Adder.java`
 
@@ -265,7 +265,7 @@ Then（则）-----------------assert(断言，验证结果)
 
 ## 八、官方代码及示例
 
-- 混杂编程语言版: 点击查看[https://github.com/cucumber/cucumber]
+- 多编程语言版: 点击查看[https://github.com/cucumber/cucumber]
 - Java版: 点击查看[https://github.com/cucumber/cucumber-jvm]
 
 ## 九、常见问题
